@@ -1,4 +1,3 @@
-
 # bind-plugin
 
   Allows to [bind](https://github.com/bredele/data-binding) node attributes to a [store](https://github.com/bredele/store)
@@ -17,7 +16,7 @@ binding.add('bind', plugin);
 ...
 ```
 
-First parameter is the attribute's name and second if the model attribute.
+First parameter is the attribute's name and second is the model attribute.
 
 ```html
 <p data-bind="innerHTML,description"></p>
