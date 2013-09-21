@@ -4,7 +4,7 @@
 
 ## Installation
 
-    $ component install bredele/bind-plugin
+    $ component install leafs/bind-plugin
 
 ## Usage
 
