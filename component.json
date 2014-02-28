@@ -1,11 +1,13 @@
 {
-  "name": "bind-plugin",
-  "repo": "bredele/bind-plugin",
-  "description": "Allows to bind attribute to a store",
+  "name": "attr-brick",
+  "repo": "bredele/attr-brick",
+  "description": "Lego plugin to bind a node attribute with a store atribute",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
-  "development": {},
+  "development": {
+    "bredele/lego" : "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [

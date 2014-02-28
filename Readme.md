@@ -1,28 +1,51 @@
-# bind-plugin
+# attr-plugin
 
-  Allows to [bind](https://github.com/bredele/data-binding) node attributes to a [store](https://github.com/bredele/store)
+  [Lego](https://github.com/bredele/lego) plugin to bind a node iattribute with a [store](https://github.com/bredele/store) attribute
 
 ## Installation
 
-    $ component install bredele/bind-plugin
+with [component](http://github.com/component/component):
+
+    $ component install bredele/attr-brick
+
+with [nodejs](http://nodejs.org):
+
+    $ component install attr-brick
 
 ## Usage
 
+First, add the plugin to your view (see [lego](https://github.com/bredele/lego) to know more about views):
 
 ```js
-var plugin = require('bind-plugin');
-...
-binding.add('bind', plugin);
-...
+view.add('data-attr', require('attr-brick'));
 ```
 
-First parameter is the attribute's name and second is the model attribute.
+## Basic
 
 ```html
-<p data-bind="innerHTML,description"></p>
+<a data-attr="href, github"></a>
 ```
 
-   
+The plugin will look if it finds the property `github` and listen for changes.
+
+```js
+view.set('github', 'http://github.com/bredele');
+```
+
+will display:
+
+```html
+<a href="http://github.com/bredele"></a>
+```
+see [live example](https://github.com/bredele/attr-brick/tree/master/example)
+
+## Alternative
+
+[lego](https://github.com/bredele/lego) allows variable substitutions
+
+```html
+<a href="{{ github }}"></a>
+```
 
 ## License
 
