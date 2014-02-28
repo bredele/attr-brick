@@ -1,0 +1,29 @@
+{
+  "name": "attr-brick",
+  "version": "0.0.1",
+  "description": "Lego plugin to bind node properties to a store attribute",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bredele/attr-brick.git"
+  },
+  "keywords": [
+    "mvc",
+    "mvvm",
+    "lego",
+    "brick",
+    "attribute",
+    "binding"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/attr-brick/issues"
+  }
+}
