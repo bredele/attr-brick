@@ -1,6 +1,6 @@
 # attr-plugin
 
-  [Lego](https://github.com/bredele/lego) plugin to bind a node iattribute with a [store](https://github.com/bredele/store) attribute
+  [Lego](https://github.com/bredele/lego) plugin to bind a node attribute with a [store](https://github.com/bredele/store) attribute
 
 ## Installation
 

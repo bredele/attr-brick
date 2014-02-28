@@ -11,14 +11,15 @@
 	  var repos = ['lego', 'artery', 'store', 'keynote'];
 
 	  var lego = require('lego');
-	  var view = lego(document.querySelector(a))
+	  var view = lego(document.querySelector('a'))
 	    .add('data-attr', require('attr-brick'))
 	    .build();
 
 	  var i = 0;
 		setInterval(function() {
-			view.set('github', 'http://github.com/bredele/' + repos[i++]);
 			if(i === 4) i = 0;
+			view.set('github', 'http://github.com/bredele/' + repos[i]);
+			i++;
 		}, 40);
 
 	</script>
