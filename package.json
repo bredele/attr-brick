@@ -1,7 +1,7 @@
 {
   "name": "attr-brick",
   "version": "0.0.1",
-  "description": "Lego plugin to bind node properties to a store attribute",
+  "description": "Brick plugin to bind node properties to a store attribute",
   "main": "index.js",
   "directories": {
     "example": "example"
@@ -16,7 +16,6 @@
   "keywords": [
     "mvc",
     "mvvm",
-    "lego",
     "brick",
     "attribute",
     "binding"

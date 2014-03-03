@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Attribute lego plugin</title>
+	<title>Attribute brick plugin</title>
 </head>
 <body>
 	<a data-attr="href,github">mouse over to see link</a>
 	<script src="../build/build.js"></script>
 	<script>
-	  var repos = ['lego', 'artery', 'store', 'keynote'];
+	  var repos = ['brick', 'artery', 'store', 'keynote'];
 
-	  var lego = require('lego');
-	  var view = lego(document.querySelector('a'))
+	  var brick = require('brick');
+	  var view = brick(document.querySelector('a'))
 	    .add('data-attr', require('attr-brick'))
 	    .build();
 
